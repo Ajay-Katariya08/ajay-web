@@ -23,7 +23,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl sm:text-2xl font-medium text-zinc-700 dark:text-zinc-300">
-            Hi, I'm <span className="text-zinc-950 dark:text-white font-semibold">{siteConfig.name}</span> - Frontend Specialist.
+            Hi, I'm <span className="text-zinc-950 dark:text-white font-semibold">{siteConfig.name}</span> ({siteConfig.alias}) - {siteConfig.role}.
           </p>
 
           <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl leading-relaxed">
