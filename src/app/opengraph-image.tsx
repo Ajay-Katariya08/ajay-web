@@ -59,7 +59,7 @@ export default async function Image() {
           {siteConfig.role} & React Developer
         </p>
         <div style={{ display: "flex", gap: "16px", fontSize: "22px", color: "#818cf8" }}>
-          <span>https://ajaykatariya.dev</span>
+          <span>https://ajaykatariyadev.vercel.app</span>
         </div>
       </div>
     ),
