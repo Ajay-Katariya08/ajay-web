@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
   availabilityText: "Available for freelance projects",
   social: {
     github: "https://github.com/ajay-katariya08",
-    linkedin: "https://linkedin.com/in/ajaykatariya",
+    linkedin: "https://www.linkedin.com/in/ajay-katariya-846164251/",
     twitter: "https://x.com/Dev_With_Ajju",
   },
 };
