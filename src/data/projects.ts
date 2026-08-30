@@ -2,84 +2,108 @@ import { Project } from "@/types";
 
 export const projectsData: Project[] = [
   {
-    slug: "nexus-analytics-dashboard",
-    title: "Nexus Analytics Dashboard",
-    description: "Real-time SaaS analytics platform featuring dynamic data visualization, customizable widget layouts, and responsive data tables.",
-    longDescription: "Nexus is a high-performance analytics dashboard designed for fast-growing SaaS startups. Built with Next.js 16 and TypeScript, it handles thousands of live metrics smoothly with virtualized data lists and lightweight chart integration.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+    slug: "globalsbid-tenders-portal",
+    title: "GlobalsBid - Global Tenders & Procurement Platform",
+    description:
+      "High-traffic international government tender search and procurement portal facilitating discovery of global RFPs, bids, and business opportunities.",
+    longDescription:
+      "GlobalsBid is a comprehensive procurement notice and government tenders portal designed to connect global enterprises with public sector contracts and tender notices worldwide. Engineered with React, TypeScript, and Tailwind CSS, the platform delivers high-speed tender discovery, multi-faceted keyword and regional filtering, and integrated payment processing via Razorpay for premium subscription access.",
+    image:
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
     images: [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    ],
+    category: "Web Application",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Razorpay API",
+      "REST APIs",
+      "Google Tag Manager",
+      "SEO / Schema.org",
+    ],
+    featured: true,
+    liveUrl: "https://globalsbid.com",
+    githubUrl: "https://github.com/ajay-katariya08",
+    year: 2025,
+    client: "GlobalsBid",
+    challenge:
+      "Building a high-throughput tender portal capable of indexing thousands of daily procurement notices with rapid multi-parameter filtering, fast load times, and structured SEO schema for organic reach.",
+    solution:
+      "Developed a responsive, accessible React architecture with custom filtering pipelines, Razorpay checkout integration, structured schema.org metadata for rich search indexing, and optimized bundle caching.",
+    outcome:
+      "Significantly boosted organic search impressions and streamlined subscription conversions for international tender bidders.",
+  },
+  {
+    slug: "refundpulse-flight-tracker",
+    title: "RefundPulse - Automated Flight Delay Compensation Tracker",
+    description:
+      "24/7 background flight radar tracking EU261, UK261, and US DOT statutory compensation with instant 1-click legal claim generation.",
+    longDescription:
+      "RefundPulse is an automated aviation claim and flight tracking SaaS platform that helps passengers recover statutory cash payouts when airlines delay or cancel flights. Powered by Next.js App Router, live aviation APIs, and Google Gemini AI, RefundPulse continuously monitors flight schedules in real-time, calculates legal entitlement based on international air passenger regulations, and drafts court-tested demand notices citing case laws like Sturgeon v Condor.",
+    image:
+      "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
     ],
-    category: "Dashboard",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Recharts"],
+    category: "SaaS Platform",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Google Gemini AI",
+      "AeroDataBox API",
+      "Lucide Icons",
+    ],
     featured: true,
-    liveUrl: "https://example.com/nexus",
-    githubUrl: "https://github.com/ajaykatariya/nexus-dashboard",
-    year: 2024,
-    client: "Nexus Cloud Inc.",
-    challenge: "The existing dashboard suffered from sluggish rendering, sluggish chart updates, and poor mobile responsiveness.",
-    solution: "Architected a modular component system with React Server Components, server-side data prefetching, and custom CSS token-based dark mode.",
-    outcome: "Improved Lighthouse performance score from 62 to 98 and reduced initial payload size by 45%."
+    liveUrl: "https://refundpulse.vercel.app",
+    githubUrl: "https://github.com/ajay-katariya08",
+    year: 2026,
+    client: "RefundPulse",
+    challenge:
+      "Traditional compensation agencies charge 30-50% commission cuts and require cumbersome paperwork, while travelers lack awareness of statutory rights under EU 261/2004, UK CAA, and US DOT 14 CFR.",
+    solution:
+      "Architected an automated Next.js SaaS solution with an instant statutory delay calculator, live flight radar sync, and automated AI legal notice generation allowing passengers to claim 100% of their compensation directly.",
+    outcome:
+      "Empowered airline passengers to reclaim statutory cash entitlements (up to €600/£520 per passenger) with zero commission fees and 1-click filing.",
   },
   {
-    slug: "elevate-design-system",
-    title: "Elevate Design System & UI Kit",
-    description: "Comprehensive component library and design system built with Tailwind CSS, supporting dark/light mode and accessible ARIA primitives.",
-    longDescription: "Elevate is an enterprise-grade UI component architecture providing 40+ accessible React components. Designed for developer productivity and seamless multi-brand token styling.",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+    slug: "resumai-ai-resume-builder",
+    title: "ResumAI - AI Resume & CV Builder SaaS",
+    description:
+      "Full-stack AI-driven resume builder featuring ATS optimization, smart bullet improver, dynamic templates, and format-locked A4 PDF export.",
+    longDescription:
+      "ResumAI is a modern resume workspace engineered to help job seekers create ATS-friendly, professionally structured CVs. Built using Next.js, React, and TypeScript with Google Gemini AI integration, it provides real-time job summary generation, AI bullet point enhancements, role-based skill suggestions, multiple template themes (Modern, Classic, Developer, Minimal, Creative), and high-precision print-to-PDF generation with zero layout shifts.",
+    image:
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=1200&q=80",
     images: [
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
     ],
-    category: "UI System",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Storybook"],
+    category: "AI SaaS",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Google Gemini AI",
+      "Lucide Icons",
+      "PDF Export Engine",
+    ],
     featured: true,
-    liveUrl: "https://example.com/elevate",
-    githubUrl: "https://github.com/ajaykatariya/elevate-ui",
-    year: 2024,
-    client: "Internal Product",
-    challenge: "Inconsistent UI patterns and redundant styling across multiple frontend repositories.",
-    solution: "Created an isolated npm package with standardized design tokens, accessible keyboard interactions, and strict TypeScript prop schemas.",
-    outcome: "Accelerated feature delivery by 35% across 4 client web applications."
+    liveUrl: "https://akresu-builder.vercel.app",
+    githubUrl: "https://github.com/ajay-katariya08",
+    year: 2026,
+    client: "ResumAI",
+    challenge:
+      "Job candidates frequently struggle with weak resume bullet points, unformatted layouts, and rejection by Automated Tracking Systems (ATS).",
+    solution:
+      "Created an intuitive multi-step builder with intelligent AI rewriting, dynamic typography/color controls, live previewing, and pixel-accurate format-locked A4 PDF rendering.",
+    outcome:
+      "Delivered an effortless resume creation flow that enhances CV quality and optimizes applications for ATS scanning.",
   },
-  {
-    slug: "aura-ecommerce-storefront",
-    title: "Aura E-Commerce Storefront",
-    description: "Ultra-fast headless e-commerce store with instant client-side transitions, product filtering, and streamlined checkout UX.",
-    longDescription: "Aura is a modern storefront engineered for conversion optimization. Featuring server-rendered product catalog pages, optimistic cart updates, and full mobile optimization.",
-    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80"
-    ],
-    category: "E-commerce",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zustand"],
-    featured: true,
-    liveUrl: "https://example.com/aura",
-    githubUrl: "https://github.com/ajaykatariya/aura-storefront",
-    year: 2023,
-    client: "Aura Goods",
-    challenge: "Low mobile conversion rates caused by slow product page loads and awkward filter navigation.",
-    solution: "Built a headless Next.js frontend with route prefetching, responsive drawered filter menus, and lightweight state management.",
-    outcome: "Boosted mobile conversion by 28% and cut dynamic page response time to <150ms."
-  },
-  {
-    slug: "pulse-saas-landing-page",
-    title: "Pulse SaaS Landing Page",
-    description: "High-converting marketing landing page featuring clean typography, responsive layout sections, and subtle interaction micro-animations.",
-    longDescription: "Pulse is a pixel-perfect SaaS landing page designed to communicate value clearly and convert visitors into active trial users.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
-    ],
-    category: "Landing Page",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    featured: false,
-    liveUrl: "https://example.com/pulse",
-    githubUrl: "https://github.com/ajaykatariya/pulse-landing",
-    year: 2023,
-    client: "Pulse AI",
-    challenge: "Converting complex technical feature sets into an intuitive, visually clear narrative.",
-    solution: "Designed a clean vertical visual flow with distinct feature cards, responsive comparison grids, and prominent CTAs.",
-    outcome: "Achieved 100/100 Core Web Vitals score on mobile and desktop."
-  }
 ];
