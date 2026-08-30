@@ -6,6 +6,7 @@
 .DS_Store
 *.pem
 .env*.local
+.env*.example
 .env
 .vercel
 *.tsbuildinfo
