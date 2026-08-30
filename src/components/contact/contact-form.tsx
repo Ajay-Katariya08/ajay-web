@@ -37,7 +37,20 @@ export function ContactForm() {
     setErrorMessage("");
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 800));
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to send message.");
+      }
+
       setStatus("success");
       setFormData({
         name: "",
@@ -47,9 +60,11 @@ export function ContactForm() {
         budget: "$1,000 - $3,000",
         message: "",
       });
-    } catch {
+    } catch (err) {
       setStatus("error");
-      setErrorMessage("Failed to send message. Please try emailing directly.");
+      setErrorMessage(
+        err instanceof Error ? err.message : "Failed to send message. Please try emailing directly."
+      );
     }
   };
 
