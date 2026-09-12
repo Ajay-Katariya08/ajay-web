@@ -106,4 +106,38 @@ export const projectsData: Project[] = [
     outcome:
       "Delivered an effortless resume creation flow that enhances CV quality and optimizes applications for ATS scanning.",
   },
+  {
+    slug: "sharetools-community-rental-platform",
+    title: "ShareTools - Hyper-Local Equipment Sharing Platform",
+    description:
+      "Hyper-local peer-to-peer equipment sharing marketplace connecting neighbors in Surat to borrow and lend household tools, power drills, and appliances.",
+    longDescription:
+      "ShareTools is a hyper-local peer-to-peer equipment rental and community sharing platform designed to reduce household consumption and unnecessary tool purchases. Built with Next.js App Router, TypeScript, and Tailwind CSS, the platform features interactive neighborhood map exploration across Surat micro-localities (Vesu, Adajan, Piplod, Pal), rental savings calculators, tool listing flows, and verified community trust ratings.",
+    image:
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1200&q=80",
+    ],
+    category: "Marketplace Platform",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Interactive Maps",
+      "Lucide Icons",
+    ],
+    featured: true,
+    liveUrl: "https://shareyourtools.vercel.app",
+    githubUrl: "https://github.com/ajay-katariya08",
+    year: 2026,
+    client: "ShareTools",
+    challenge:
+      "Homeowners and DIY enthusiasts frequently purchase expensive power tools and appliances that sit idle for 99% of the year, leading to unnecessary spending and storage clutter.",
+    solution:
+      "Engineered an intuitive hyper-local sharing platform featuring geo-tagged neighborhood equipment maps, instant rental savings estimation, and verified peer-to-peer listing workflows.",
+    outcome:
+      "Created a collaborative circular economy hub enabling residents to save up to 80% on home DIY equipment costs while fostering neighborhood resource sharing.",
+  },
 ];

@@ -14,7 +14,10 @@ type ProjectFilterProps = {
 export function ProjectFilter({ projects }: ProjectFilterProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
 
-  const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)))];
+  const categories = [
+    "All",
+    ...Array.from(new Set(projects.map((p) => p.category))),
+  ];
 
   const filteredProjects =
     selectedCategory === "All"
@@ -55,12 +58,15 @@ export function ProjectFilter({ projects }: ProjectFilterProps) {
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-linear-to-t from-zinc-950/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
 
               <div className="p-6 space-y-4">
                 <div className="flex items-center justify-between gap-2">
-                  <Badge variant="outline" className="bg-zinc-100/80 dark:bg-zinc-800/80 border-zinc-200 dark:border-zinc-700">
+                  <Badge
+                    variant="outline"
+                    className="bg-zinc-100/80 dark:bg-zinc-800/80 border-zinc-200 dark:border-zinc-700"
+                  >
                     {project.category}
                   </Badge>
                   {project.year && (
@@ -71,7 +77,9 @@ export function ProjectFilter({ projects }: ProjectFilterProps) {
                 </div>
 
                 <h3 className="text-xl font-bold text-zinc-950 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-                  <Link href={`/projects/${project.slug}`}>{project.title}</Link>
+                  <Link href={`/projects/${project.slug}`}>
+                    {project.title}
+                  </Link>
                 </h3>
 
                 <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 line-clamp-2 leading-relaxed">
