@@ -140,4 +140,41 @@ export const projectsData: Project[] = [
     outcome:
       "Created a collaborative circular economy hub enabling residents to save up to 80% on home DIY equipment costs while fostering neighborhood resource sharing.",
   },
+  {
+    slug: "auraflow-retainer-platform",
+    title: "AuraFlow - Freelancer Direct Retainer Platform",
+    description:
+      "Recurring retainer subscriptions, dedicated client portals, billable task tracking, and projected MRR analytics for modern freelancers.",
+    longDescription:
+      "AuraFlow is a modern retainer management and client portal platform engineered to help freelancers and independent consultants convert one-off clients into predictable monthly recurring revenue. Built with Next.js, React, and TypeScript, it integrates Razorpay recurring subscriptions, dedicated task submission workflows, real-time MRR analytics with interactive charts, Vercel Blob deliverables hosting, and Resend transactional notifications.",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    ],
+    category: "SaaS Platform",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Razorpay Subscriptions",
+      "Recharts",
+      "Vercel Blob",
+      "Resend",
+      "Lucide Icons",
+    ],
+    featured: true,
+    liveUrl: "https://auraaflow.vercel.app/",
+    githubUrl: "https://github.com/ajay-katariya08",
+    year: 2026,
+    client: "AuraFlow",
+    challenge:
+      "Freelancers struggle with inconsistent monthly cash flow, awkward manual invoice chasing, and disorganized client task requests scattered across emails and messaging apps.",
+    solution:
+      "Built an end-to-end recurring retainer SaaS enabling freelancers to define subscription tiers, automate Razorpay recurring billing, track hours against task deliverables, and provide clients with a self-serve portal.",
+    outcome:
+      "Streamlined predictable recurring cash flow for independent professionals while replacing messy email threads with transparent deliverables tracking.",
+  },
 ];
