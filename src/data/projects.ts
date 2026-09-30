@@ -177,4 +177,40 @@ export const projectsData: Project[] = [
     outcome:
       "Streamlined predictable recurring cash flow for independent professionals while replacing messy email threads with transparent deliverables tracking.",
   },
+  {
+    slug: "uiexchange-component-marketplace",
+    title: "UIExchange - Peer-to-Peer UI Component Marketplace",
+    description:
+      "Visual peer-to-peer marketplace to buy, sell, and trade single-file React and Tailwind CSS components with isolated sandbox previews.",
+    longDescription:
+      "UIExchange is a visual peer-to-peer marketplace engineered for frontend developers and designers to buy, sell, and trade single-file React and Tailwind CSS components. Featuring live isolated sandbox previews, creator monetization with 85% payouts via Stripe Connect, and 0% fee peer-to-peer component swaps, the platform eliminates bulky npm dependencies in favor of modular, copy-pasteable UI primitives.",
+    image:
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+    ],
+    category: "Marketplace Platform",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Stripe Connect",
+      "Clerk",
+      "DaisyUI",
+      "Lucide Icons",
+    ],
+    featured: true,
+    liveUrl: "https://ui-trade.vercel.app/",
+    githubUrl: "https://github.com/ajay-katariya08",
+    year: 2026,
+    client: "UIExchange",
+    challenge:
+      "Developers often install bulky monolithic component libraries or rebuild custom UI from scratch, while creators lack an accessible micro-transaction marketplace or 1:1 trading hub for modular components.",
+    solution:
+      "Architected a Next.js component marketplace featuring Clerk authentication, Stripe Connect creator payouts, live interactive sandboxes across multiple viewports, and a direct 1:1 P2P component exchange protocol.",
+    outcome:
+      "Enabled creators to monetize single-file UI components with 85% payouts and provided a frictionless ecosystem for zero-fee peer-to-peer component swaps.",
+  },
 ];
