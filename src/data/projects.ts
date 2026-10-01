@@ -37,6 +37,42 @@ export const projectsData: Project[] = [
       "Significantly boosted organic search impressions and streamlined subscription conversions for international tender bidders.",
   },
   {
+    slug: "queuezero-queue-telemetry",
+    title: "QueueZero - Crowdsourced Queue Intelligence & Telemetry",
+    description:
+      "Real-time crowdsourced queue intelligence and multi-step visit-duration simulation engine for hospitals, government offices, DMVs, and banks.",
+    longDescription:
+      "QueueZero is a crowdsourced queue intelligence and wait-time prediction platform engineered to eliminate unpredictable waiting bottlenecks. Built using Next.js App Router, React, and TypeScript with Clerk authentication, it combines verified telemetry feeds from facility operators with anonymous real-time visitor reporting. It features an interactive visit planner that simulates multi-stage operational journeys (token clearance, service counters, processing) against user time budgets to calculate precise departure recommendations.",
+    image:
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+    ],
+    category: "SaaS Platform",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Clerk",
+      "Lucide Icons",
+      "Simulation Engine",
+    ],
+    featured: true,
+    liveUrl: "https://queuezeero.vercel.app/",
+    githubUrl: "https://github.com/ajay-katariya08",
+    year: 2026,
+    client: "QueueZero",
+    challenge:
+      "Citizens and patients waste hours in unpredictable queues at healthcare facilities, DMVs, and service desks due to lack of transparent, real-time wait telemetry.",
+    solution:
+      "Engineered a zero-friction crowdsourced platform with 1-tap anonymous reporting, operator status feeds, and a journey simulation engine forecasting multi-step bottleneck delays.",
+    outcome:
+      "Delivered live queue visibility and predictive time budgeting across multiple public facility categories, preventing unexpected wait times.",
+  },
+
+  {
     slug: "refundpulse-flight-tracker",
     title: "RefundPulse - Automated Flight Delay Compensation Tracker",
     description:
