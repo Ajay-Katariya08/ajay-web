@@ -2,11 +2,11 @@ import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
   name: "Ajay Katariya",
-  alias: "",
+  alias: "ajaykatariya",
   url: "https://ajaykatariyadev.vercel.app",
-  title: "Ajay Katariya - Senior Frontend Specialist",
+  title: "Ajay Katariya — Senior Frontend Developer & React Specialist | Portfolio",
   role: "Senior Frontend Specialist",
-  bio: "Ajay Katariya  is a Senior Frontend Specialist & React Developer creating fast, accessible, and high-performance Next.js web applications.",
+  bio: "Ajay Katariya (ajaykatariya) is a Senior Frontend Developer & React Specialist from India, building fast, accessible, and high-performance Next.js web applications. Explore the official portfolio of Ajay Katariya.",
   email: "ajaykatariya.dev@gmail.com",
   location: "India",
   availability: true,

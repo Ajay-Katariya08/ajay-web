@@ -4,8 +4,9 @@ import { WhyWorkWithMe } from "@/components/sections/why-work-with-me";
 import { ContactCTA } from "@/components/sections/contact-cta";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Frontend Development Services — Hire Ajay Katariya",
   description: "Explore client frontend development services, design-to-code workflows, and 6-step collaboration process.",
+  alternates: { canonical: "/services" },
 };
 
 const processSteps = [

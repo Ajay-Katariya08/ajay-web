@@ -4,8 +4,9 @@ import { siteConfig } from "@/config/site";
 import { ContactForm } from "@/components/contact/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact Ajay Katariya — Freelance Frontend Developer",
   description: "Get in touch with Ajay Katariya for freelance projects, frontend consultation, or contract opportunities.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.title,
-    template: `%s | ${siteConfig.name} (${siteConfig.alias})`,
+    template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.bio,
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
@@ -62,10 +62,25 @@ const jsonLdData = {
     {
       "@type": "Person",
       "@id": `${siteConfig.url}/#person`,
-      "name": siteConfig.name,
-      "alternateName": ["dev with ajju", "devwithajju", "Dev_With_Ajju"],
+      "name": "Ajay Katariya",
+      "alternateName": [
+        "ajaykatariya",
+        "ajay katariya",
+        "Ajay Katariya Developer",
+        "dev with ajju",
+        "devwithajju",
+        "Dev_With_Ajju"
+      ],
       "url": siteConfig.url,
-      "jobTitle": siteConfig.role,
+      "jobTitle": "Senior Frontend Developer",
+      "description": "Senior Frontend Developer & React Specialist building high-performance Next.js web applications.",
+      "email": "ajaykatariya.dev@gmail.com",
+      "image": `${siteConfig.url}/opengraph-image`,
+      "knowsAbout": [
+        "React", "Next.js", "TypeScript", "Tailwind CSS",
+        "Frontend Development", "Web Performance", "UI/UX Design"
+      ],
+      "nationality": { "@type": "Country", "name": "India" },
       "sameAs": [
         siteConfig.social.github,
         siteConfig.social.linkedin,
@@ -76,8 +91,20 @@ const jsonLdData = {
       "@type": "WebSite",
       "@id": `${siteConfig.url}/#website`,
       "url": siteConfig.url,
-      "name": `${siteConfig.name} - dev with ajju`,
+      "name": "Ajay Katariya — Portfolio",
+      "description": siteConfig.bio,
       "publisher": { "@id": `${siteConfig.url}/#person` },
+      "inLanguage": "en",
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${siteConfig.url}/#homepage`,
+      "url": siteConfig.url,
+      "name": siteConfig.title,
+      "description": siteConfig.bio,
+      "isPartOf": { "@id": `${siteConfig.url}/#website` },
+      "about": { "@id": `${siteConfig.url}/#person` },
+      "inLanguage": "en",
     },
   ],
 };

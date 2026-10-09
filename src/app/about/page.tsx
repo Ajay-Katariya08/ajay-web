@@ -6,8 +6,9 @@ import { SkillsSection } from "@/components/sections/skills-section";
 import { ContactCTA } from "@/components/sections/contact-cta";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Ajay Katariya — Frontend Developer & React Specialist",
   description: "Learn more about Ajay Katariya, frontend specialization, philosophy, and background.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {
