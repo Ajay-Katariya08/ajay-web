@@ -6,8 +6,9 @@ import { SkillsSection } from "@/components/sections/skills-section";
 import { ContactCTA } from "@/components/sections/contact-cta";
 
 export const metadata: Metadata = {
-  title: "About Ajay Katariya — Frontend Developer & React Specialist",
-  description: "Learn more about Ajay Katariya, frontend specialization, philosophy, and background.",
+  title: "About Ajay Katariya - Frontend Developer & React Specialist",
+  description:
+    "Learn more about Ajay Katariya, frontend specialization, philosophy, and background.",
   alternates: { canonical: "/about" },
 };
 
@@ -19,10 +20,14 @@ export default function AboutPage() {
           About Me
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-zinc-950 dark:text-white leading-tight">
-          Frontend Developer focused on <span className="gradient-text">speed</span>, UX, & clean architecture.
+          Frontend Developer focused on{" "}
+          <span className="gradient-text">speed</span>, UX, & clean
+          architecture.
         </h1>
         <p className="text-base sm:text-xl text-zinc-600 dark:text-zinc-400 leading-relaxed">
-          I'm {siteConfig.name}, a dedicated frontend engineer building high-performance web applications with Next.js, React, TypeScript, and modern styling libraries.
+          I'm {siteConfig.name}, a dedicated frontend engineer building
+          high-performance web applications with Next.js, React, TypeScript, and
+          modern styling libraries.
         </p>
       </section>
 
@@ -32,7 +37,10 @@ export default function AboutPage() {
             Development Philosophy
           </h2>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
-            I believe modern web applications excel when pixel precision, sub-second load times, and accessible architecture harmonize. User interfaces should feel seamless while keeping codebase structures scalable.
+            I believe modern web applications excel when pixel precision,
+            sub-second load times, and accessible architecture harmonize. User
+            interfaces should feel seamless while keeping codebase structures
+            scalable.
           </p>
         </div>
 
@@ -43,7 +51,9 @@ export default function AboutPage() {
           <ul className="space-y-3 text-sm text-zinc-600 dark:text-zinc-400">
             <li className="flex items-center gap-3">
               <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />
-              <span>Next.js App Router architecture & SSR/SSG optimization</span>
+              <span>
+                Next.js App Router architecture & SSR/SSG optimization
+              </span>
             </li>
             <li className="flex items-center gap-3">
               <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />
@@ -51,7 +61,9 @@ export default function AboutPage() {
             </li>
             <li className="flex items-center gap-3">
               <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />
-              <span>Tailwind CSS design token management & glassmorphism UI</span>
+              <span>
+                Tailwind CSS design token management & glassmorphism UI
+              </span>
             </li>
             <li className="flex items-center gap-3">
               <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0" />

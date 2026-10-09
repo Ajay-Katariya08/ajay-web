@@ -4,8 +4,9 @@ import { ProjectFilter } from "@/components/projects/project-filter";
 import { ContactCTA } from "@/components/sections/contact-cta";
 
 export const metadata: Metadata = {
-  title: "Projects by Ajay Katariya — Frontend Portfolio & Case Studies",
-  description: "Explore frontend projects, SaaS dashboards, e-commerce storefronts, and design systems built by Ajay Katariya.",
+  title: "Projects by Ajay Katariya - Frontend Portfolio & Case Studies",
+  description:
+    "Explore frontend projects, SaaS dashboards, e-commerce storefronts, and design systems built by Ajay Katariya.",
   alternates: { canonical: "/projects" },
 };
 
@@ -17,7 +18,8 @@ export default function ProjectsPage() {
           Selected Projects
         </h1>
         <p className="text-base text-zinc-600 dark:text-zinc-400">
-          A showcase of recent frontend web applications, design systems, and client solutions. Filter by technology or project domain.
+          A showcase of recent frontend web applications, design systems, and
+          client solutions. Filter by technology or project domain.
         </p>
       </div>
 

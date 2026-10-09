@@ -62,26 +62,32 @@ const jsonLdData = {
     {
       "@type": "Person",
       "@id": `${siteConfig.url}/#person`,
-      "name": "Ajay Katariya",
-      "alternateName": [
+      name: "Ajay Katariya",
+      alternateName: [
         "ajaykatariya",
         "ajay katariya",
         "Ajay Katariya Developer",
         "dev with ajju",
         "devwithajju",
-        "Dev_With_Ajju"
+        "Dev_With_Ajju",
       ],
-      "url": siteConfig.url,
-      "jobTitle": "Senior Frontend Developer",
-      "description": "Senior Frontend Developer & React Specialist building high-performance Next.js web applications.",
-      "email": "ajaykatariya.dev@gmail.com",
-      "image": `${siteConfig.url}/opengraph-image`,
-      "knowsAbout": [
-        "React", "Next.js", "TypeScript", "Tailwind CSS",
-        "Frontend Development", "Web Performance", "UI/UX Design"
+      url: siteConfig.url,
+      jobTitle: "Senior Frontend Developer",
+      description:
+        "Senior Frontend Developer & React Specialist building high-performance Next.js web applications.",
+      email: "ajaykatariya.dev@gmail.com",
+      image: `${siteConfig.url}/opengraph-image`,
+      knowsAbout: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Frontend Development",
+        "Web Performance",
+        "UI/UX Design",
       ],
-      "nationality": { "@type": "Country", "name": "India" },
-      "sameAs": [
+      nationality: { "@type": "Country", name: "India" },
+      sameAs: [
         siteConfig.social.github,
         siteConfig.social.linkedin,
         siteConfig.social.twitter,
@@ -90,21 +96,21 @@ const jsonLdData = {
     {
       "@type": "WebSite",
       "@id": `${siteConfig.url}/#website`,
-      "url": siteConfig.url,
-      "name": "Ajay Katariya — Portfolio",
-      "description": siteConfig.bio,
-      "publisher": { "@id": `${siteConfig.url}/#person` },
-      "inLanguage": "en",
+      url: siteConfig.url,
+      name: "Ajay Katariya - Portfolio",
+      description: siteConfig.bio,
+      publisher: { "@id": `${siteConfig.url}/#person` },
+      inLanguage: "en",
     },
     {
       "@type": "WebPage",
       "@id": `${siteConfig.url}/#homepage`,
-      "url": siteConfig.url,
-      "name": siteConfig.title,
-      "description": siteConfig.bio,
-      "isPartOf": { "@id": `${siteConfig.url}/#website` },
-      "about": { "@id": `${siteConfig.url}/#person` },
-      "inLanguage": "en",
+      url: siteConfig.url,
+      name: siteConfig.title,
+      description: siteConfig.bio,
+      isPartOf: { "@id": `${siteConfig.url}/#website` },
+      about: { "@id": `${siteConfig.url}/#person` },
+      inLanguage: "en",
     },
   ],
 };
@@ -127,12 +133,16 @@ export default function RootLayout({
           <div className="relative max-w-6xl w-full mx-auto min-h-screen flex flex-col border-x border-zinc-200 dark:border-zinc-800/90 bg-white dark:bg-zinc-950 shadow-sm">
             <div className="pointer-events-none absolute inset-y-0 -left-2 w-px bg-zinc-200 dark:bg-zinc-800/80 hidden sm:block" />
             <div className="pointer-events-none absolute inset-y-0 -left-2 w-px bg-gradient-to-b from-transparent via-indigo-500/30 dark:via-indigo-400/30 to-transparent hidden sm:block" />
-            
+
             <div className="pointer-events-none absolute inset-y-0 -right-2 w-px bg-zinc-200 dark:bg-zinc-800/80 hidden sm:block" />
             <div className="pointer-events-none absolute inset-y-0 -right-2 w-px bg-gradient-to-b from-transparent via-indigo-500/30 dark:via-indigo-400/30 to-transparent hidden sm:block" />
 
-            <div className="pointer-events-none absolute -top-1.5 -left-3 text-zinc-300 dark:text-zinc-700 font-mono text-[10px] select-none hidden sm:block">+</div>
-            <div className="pointer-events-none absolute -top-1.5 -right-3 text-zinc-300 dark:text-zinc-700 font-mono text-[10px] select-none hidden sm:block">+</div>
+            <div className="pointer-events-none absolute -top-1.5 -left-3 text-zinc-300 dark:text-zinc-700 font-mono text-[10px] select-none hidden sm:block">
+              +
+            </div>
+            <div className="pointer-events-none absolute -top-1.5 -right-3 text-zinc-300 dark:text-zinc-700 font-mono text-[10px] select-none hidden sm:block">
+              +
+            </div>
 
             <Header />
             <main className="flex-1 w-full px-4 sm:px-8 lg:px-12">

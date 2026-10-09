@@ -1,11 +1,20 @@
 import type { Metadata } from "next";
-import { Mail, Github, Linkedin, Twitter, Clock, MapPin, CheckCircle } from "lucide-react";
+import {
+  Mail,
+  Github,
+  Linkedin,
+  Twitter,
+  Clock,
+  MapPin,
+  CheckCircle,
+} from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { ContactForm } from "@/components/contact/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact Ajay Katariya — Freelance Frontend Developer",
-  description: "Get in touch with Ajay Katariya for freelance projects, frontend consultation, or contract opportunities.",
+  title: "Contact Ajay Katariya - Freelance Frontend Developer",
+  description:
+    "Get in touch with Ajay Katariya for freelance projects, frontend consultation, or contract opportunities.",
   alternates: { canonical: "/contact" },
 };
 
@@ -20,7 +29,8 @@ export default function ContactPage() {
           Let's <span className="gradient-text">Work Together</span>
         </h1>
         <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400">
-          Have a project, freelance inquiry, or design-to-code request? Send me a message and I'll respond within 24 hours.
+          Have a project, freelance inquiry, or design-to-code request? Send me
+          a message and I'll respond within 24 hours.
         </p>
       </div>
 

@@ -4,8 +4,9 @@ import { WhyWorkWithMe } from "@/components/sections/why-work-with-me";
 import { ContactCTA } from "@/components/sections/contact-cta";
 
 export const metadata: Metadata = {
-  title: "Frontend Development Services — Hire Ajay Katariya",
-  description: "Explore client frontend development services, design-to-code workflows, and 6-step collaboration process.",
+  title: "Frontend Development Services - Hire Ajay Katariya",
+  description:
+    "Explore client frontend development services, design-to-code workflows, and 6-step collaboration process.",
   alternates: { canonical: "/services" },
 };
 
@@ -13,33 +14,39 @@ const processSteps = [
   {
     step: "01",
     title: "Discovery",
-    description: "Review project goals, designs, technical specifications, and key deliverables."
+    description:
+      "Review project goals, designs, technical specifications, and key deliverables.",
   },
   {
     step: "02",
     title: "Planning & Architecture",
-    description: "Establish component scope, state management pattern, and design token integration."
+    description:
+      "Establish component scope, state management pattern, and design token integration.",
   },
   {
     step: "03",
     title: "Development",
-    description: "Write clean, type-safe Next.js / React code with regular async progress updates."
+    description:
+      "Write clean, type-safe Next.js / React code with regular async progress updates.",
   },
   {
     step: "04",
     title: "Review & Testing",
-    description: "Test responsiveness across device viewports, light/dark modes, and accessibility."
+    description:
+      "Test responsiveness across device viewports, light/dark modes, and accessibility.",
   },
   {
     step: "05",
     title: "Launch & Integration",
-    description: "Deploy to production environment with complete documentation and seamless handover."
+    description:
+      "Deploy to production environment with complete documentation and seamless handover.",
   },
   {
     step: "06",
     title: "Post-Launch Support",
-    description: "Assistance with initial updates, performance monitoring, and bug fixes."
-  }
+    description:
+      "Assistance with initial updates, performance monitoring, and bug fixes.",
+  },
 ];
 
 export default function ServicesPage() {
@@ -50,10 +57,12 @@ export default function ServicesPage() {
           Freelance Frontend Services
         </div>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-zinc-950 dark:text-white leading-tight">
-          Turn your designs into <span className="gradient-text">fast</span>, production-ready web products.
+          Turn your designs into <span className="gradient-text">fast</span>,
+          production-ready web products.
         </h1>
         <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-          I partner with startups, agencies, and founders to build scalable frontend applications, design systems, and responsive marketing sites.
+          I partner with startups, agencies, and founders to build scalable
+          frontend applications, design systems, and responsive marketing sites.
         </p>
       </div>
 
@@ -68,7 +77,8 @@ export default function ServicesPage() {
             Development & Collaboration Process
           </h2>
           <p className="text-zinc-600 dark:text-zinc-400 text-sm sm:text-base mt-2">
-            A simple, predictable 6-step workflow from discovery to production deployment.
+            A simple, predictable 6-step workflow from discovery to production
+            deployment.
           </p>
         </div>
 
