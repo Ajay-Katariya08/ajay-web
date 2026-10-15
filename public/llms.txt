@@ -1,25 +1,20 @@
-# Ajay Katariya - Portfolio
+# Ajay Katariya
 
 > Senior Frontend Developer & React Specialist building high-performance Next.js web applications.
 
-## About
-- Name: Ajay Katariya
-- Alias: ajaykatariya (Dev_With_Ajju)
-- Role: Senior Frontend Specialist
-- Location: India
-- Email: ajaykatariya.dev@gmail.com
-- Website: https://ajaykatariyadev.vercel.app
+## Navigation & Pages
+- [Home](https://ajaykatariyadev.vercel.app/): Portfolio homepage, introduction, and featured projects.
+- [About](https://ajaykatariyadev.vercel.app/about): Developer bio, technical skills, and professional experience.
+- [Projects](https://ajaykatariyadev.vercel.app/projects): Selected production web applications and SaaS projects.
+- [Services](https://ajaykatariyadev.vercel.app/services): Frontend development, Next.js architecture, and performance optimization services.
+- [Contact](https://ajaykatariyadev.vercel.app/contact): Contact information and inquiry form.
 
-## Core Skills
-- React, Next.js (App Router), TypeScript, JavaScript
-- Tailwind CSS, Modern UI/UX, Component Architecture
-- SEO, JSON-LD Schema, Core Web Vitals, Web Performance
+## Featured Projects
+- [GlobalsBid](https://globalsbid.com): Global procurement and government tender search portal.
+- [QueueZero](https://ajaykatariyadev.vercel.app/projects/queuezero-queue-telemetry): Crowdsourced queue intelligence and wait-time simulation SaaS.
+- [RefundPulse](https://ajaykatariyadev.vercel.app/projects/refundpulse-flight-tracker): Automated flight delay tracking and compensation recovery platform.
 
-## Key Projects
-- GlobalsBid: Global Tenders & Procurement Platform (https://globalsbid.com)
-- QueueZero: Crowdsourced Queue Intelligence & Telemetry SaaS Platform
-
-## Links
-- GitHub: https://github.com/ajay-katariya08
-- LinkedIn: https://www.linkedin.com/in/ajay-katariya-846164251/
-- Twitter: https://x.com/Dev_With_Ajju
+## Social & Developer Links
+- [GitHub](https://github.com/ajay-katariya08): Source code, personal repositories, and open source work.
+- [LinkedIn](https://www.linkedin.com/in/ajay-katariya-846164251/): Professional career summary and work history.
+- [Twitter](https://x.com/Dev_With_Ajju): Frontend development thoughts and web engineering updates.
