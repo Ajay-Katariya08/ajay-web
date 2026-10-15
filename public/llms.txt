@@ -1,0 +1,25 @@
+# Ajay Katariya - Portfolio
+
+> Senior Frontend Developer & React Specialist building high-performance Next.js web applications.
+
+## About
+- Name: Ajay Katariya
+- Alias: ajaykatariya (Dev_With_Ajju)
+- Role: Senior Frontend Specialist
+- Location: India
+- Email: ajaykatariya.dev@gmail.com
+- Website: https://ajaykatariyadev.vercel.app
+
+## Core Skills
+- React, Next.js (App Router), TypeScript, JavaScript
+- Tailwind CSS, Modern UI/UX, Component Architecture
+- SEO, JSON-LD Schema, Core Web Vitals, Web Performance
+
+## Key Projects
+- GlobalsBid: Global Tenders & Procurement Platform (https://globalsbid.com)
+- QueueZero: Crowdsourced Queue Intelligence & Telemetry SaaS Platform
+
+## Links
+- GitHub: https://github.com/ajay-katariya08
+- LinkedIn: https://www.linkedin.com/in/ajay-katariya-846164251/
+- Twitter: https://x.com/Dev_With_Ajju

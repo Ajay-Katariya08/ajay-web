@@ -32,6 +32,7 @@ const trustPoints = [
 export function TrustOverview() {
   return (
     <section className="py-14 border-b border-zinc-200/80 dark:border-zinc-800/80">
+      <h2 className="sr-only">Trust Overview</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {trustPoints.map((point) => {
           const Icon = point.icon;

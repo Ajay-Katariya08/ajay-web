@@ -19,6 +19,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
+  applicationName: siteConfig.name,
   title: {
     default: siteConfig.title,
     template: `%s | ${siteConfig.name}`,
@@ -53,6 +54,17 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.bio,
     creator: "@Dev_With_Ajju",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon-48x48.png", sizes: "48x48", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
@@ -96,8 +108,14 @@ const jsonLdData = {
     {
       "@type": "WebSite",
       "@id": `${siteConfig.url}/#website`,
-      url: siteConfig.url,
-      name: "Ajay Katariya - Portfolio",
+      url: `${siteConfig.url}/`,
+      name: siteConfig.name,
+      alternateName: [
+        siteConfig.alias ?? "ajaykatariya",
+        `${siteConfig.name} - Portfolio`,
+        "devwithajju",
+        "Dev With Ajju",
+      ],
       description: siteConfig.bio,
       publisher: { "@id": `${siteConfig.url}/#person` },
       inLanguage: "en",
